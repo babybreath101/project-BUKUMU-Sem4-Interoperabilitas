@@ -19,7 +19,7 @@ class CreateBukuTable extends Migration
             $table->bigInteger('id_penerbit')->unsigned();
             $table->string('judul', 100);
             $table->string('pengarang', 100);
-            $table->bigInteger('tahun_terbit');
+            // $table->bigInteger('tahun_terbit');
             $table->bigInteger('harga');
             $table->bigInteger('stok');
             $table->timestamps();

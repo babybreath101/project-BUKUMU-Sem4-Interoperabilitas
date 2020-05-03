@@ -1,8 +1,9 @@
 <?php
 
-use App\Jobs;
 use App\User;
-use App\Employees;
+use App\Penerbit;
+use App\KategoriBuku;
+use App\Buku;
 use Illuminate\Database\Seeder;
 
 class DatabaseSeeder extends Seeder

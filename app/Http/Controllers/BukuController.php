@@ -48,7 +48,7 @@ class BukuController extends Controller
             // 'id_penerbit'=>'required',
             'judul'=>'required',
             'pengarang'=>'required',
-            'tahun_terbit'=>'required',
+            // 'tahun_terbit'=>'required',
             'harga'=>'required',
             'stok'=>'required',
         ]);
@@ -57,7 +57,7 @@ class BukuController extends Controller
             'id_penerbit' => $request->input('id_penerbit'),
             'judul' => $request->input('judul'),
             'pengarang' => $request->input('pengarang'),
-            'tahun_terbit' => $request->input('tahun_terbit'),
+            // 'tahun_terbit' => $request->input('tahun_terbit'),
             'harga' => $request->input('harga'),
             'stok' => $request->input('stok')
         ]);
@@ -92,7 +92,7 @@ class BukuController extends Controller
             'id_penerbit'=>'required',
             'judul'=>'required',
             'pengarang'=>'required',
-            'tahun_terbit'=>'required',
+            // 'tahun_terbit'=>'required',
             'harga'=>'required',
             'stok'=>'required',
         ]);
@@ -101,7 +101,7 @@ class BukuController extends Controller
             'id_penerbit' => $request->input('id_penerbit'),
             'judul' => $request->input('judul'),
             'pengarang' => $request->input('pengarang'),
-            'tahun_terbit' => $request->input('tahun_terbit'),
+            // 'tahun_terbit' => $request->input('tahun_terbit'),
             'harga' => $request->input('harga'),
             'stok' => $request->input('stok')
         ];

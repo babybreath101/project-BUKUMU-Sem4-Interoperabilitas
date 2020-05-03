@@ -15,8 +15,9 @@ Route::get('/', function () {
     return redirect('jobs');
 });
 
- Route::resource('/jobs', 'JobsController')->middleware('auth');
- Route::resource('/employees', 'EmployeesController')->middleware('auth');
+ Route::resource('/penerbit', 'PenerbitController')->middleware('auth');
+ Route::resource('/kategori_buku', 'KategoriBukuController')->middleware('auth');
+ Route::resource('/buku', 'BukuController')->middleware('auth');
  Route::get('/info','InfoController@show');
  Auth::routes();
 

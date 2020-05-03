@@ -12,9 +12,18 @@ class PenerbitSeeder extends Seeder
     public function run()
     {
         $data = [
-            ['Elexmedia Komputindo','Tanah Abang, RT.1/RW.2, Gelora, Kota Jakarta Pusat','elexmedia@gmail.com','02153650110'],
-            ['Andi Publisher','Cipayung, Ceger, Cipayung, Kota Jakarta Timur','andi@gmail.com','02184590064'],
-            ['Gagas Media','Ciganjur, Jagakarsa, Kota Jakarta Selatan','gagas@gmail.com','021839232820'],
+            ['Elexmedia Komputindo',
+            'Tanah Abang, RT.1/RW.2, Gelora, Kota Jakarta Pusat',
+            'elexmedia@gmail.com',
+            '02153650110'],
+            ['Andi Publisher',
+            'Cipayung, Ceger, Cipayung, Kota Jakarta Timur',
+            'andi@gmail.com',
+            '02184590064'],
+            ['Gagas Media',
+            'Ciganjur, Jagakarsa, Kota Jakarta Selatan',
+            'gagas@gmail.com',
+            '021839232820'],
         ];
 
         for ($i=0; $i < count($data); $i++) {

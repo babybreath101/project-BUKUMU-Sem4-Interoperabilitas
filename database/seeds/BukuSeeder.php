@@ -12,8 +12,8 @@ class BukuSeeder extends Seeder
     public function run()
     {
         $data = [
-            [1, 1,'Negeri 5 Menara','Asya','2012','25000','100'],
-            [1,1,'Negeri 5 Menara','Asya','2012','25000','100'],
+            [1, 1,'Negeri 5 Menara','Asya','25000','100'],
+            [1, 1,'5 CM','Cintya','25000','100'],
         ];
 
         for ($i=0; $i < count($data); $i++) {
@@ -21,9 +21,9 @@ class BukuSeeder extends Seeder
             $id_penerbit = $data[$i][1];
             $judul = $data[$i][2];
             $pengarang = $data[$i][3];
-            $tahun_terbit = $data[$i][4];
-            $harga = $data[$i][5];
-            $stok = $data[$i][6];
+            // $tahun_terbit = $data[$i][4];
+            $harga = $data[$i][4];
+            $stok = $data[$i][5];
             $created_at = Carbon::now();
             $updated_at = Carbon::now();
 
@@ -32,7 +32,6 @@ class BukuSeeder extends Seeder
                 'id_penerbit' => $id_penerbit, 
                 'judul' => $judul,
                 'pengarang' => $pengarang,
-                'tahun_terbit' => $tahun_terbit,
                 'harga' => $harga,
                 'stok' => $stok,
                 'created_at' => $created_at,
